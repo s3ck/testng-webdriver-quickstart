@@ -10,6 +10,7 @@
 
     <properties>
         <fest-assert-core.version>2.0M8</fest-assert-core.version>
+        <testng-webdriver.version>2.0</testng-webdriver.version>
     </properties>
 
 
@@ -25,7 +26,7 @@
         <dependency>
             <groupId>com.dynacrongroup</groupId>
             <artifactId>testng-webdriver</artifactId>
-            <version>2.0</version>
+            <version>${testng-webdriver.version}</version>
         </dependency>
         <dependency>
             <groupId>org.easytesting</groupId>
@@ -49,7 +50,4 @@
         </plugins>
     </build>
 
-
-
-    
 </project>
